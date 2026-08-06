@@ -11,7 +11,7 @@
 * 📊 I use **rigorous data analytics** and **strategic intelligence** to turn complex, messy data into actionable business intelligence 📈 and long-term strategic decisions 🎯.
 * 🌐 International relations graduate specialised in data analysis and strategic foresight 🔮 — transforming chaos to clarity ✨ and  moving from uncertainty to opportunities 💡.
 * 🚀 Currently advancing into **Data analysis** and **Applied AI** & **Data Science Solutions** 🤖.
-⚡ Fun fact: I love Dachshunds; hoping to fulfil my dream to have one or two little wieners to join me while I code
+* ⚡ Fun fact: I love Dachshunds; hoping to fulfil my dream to have one or two little wieners to join me while I code
 
 ### 📬 Connect & Collaborate
 
