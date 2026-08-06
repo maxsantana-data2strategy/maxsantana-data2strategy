@@ -1,4 +1,83 @@
-## Hi there 👋
+# Max Santana
+### Data Analyst, Business Intelligence & Strategic Foresight Specialist
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
+---
+
+ Hi there 👋, welcome to my portafolio
+
+### 👨‍💻 A brief about me
+
+* 📊 I use **rigorous data analytics** and **strategic intelligence** to turn complex, messy data into actionable business intelligence 📈 and long-term strategic decisions 🎯.
+* 🌐 International relations graduate specialised in data analysis and strategic foresight 🔮 — transforming chaos to clarity ✨ and  moving from uncertainty to opportunities 💡.
+* 🚀 Currently advancing into **Data analysis** and **Applied AI** & **Data Science Solutions** 🤖.
+⚡ Fun fact: I love Dachshunds; hoping to fulfil my dream to have one or two little wieners to join me while I code
+
+### 📬 Connect & Collaborate
+
+* 📧 **Email:** m.santana.r@outlook.com
+* 📱 **Phone:** +52 220 501 4335
+* 🌍 **Languages:** English & Spanish (Bilingual), Intermediate French
+* 💻 **Availability:** High preference for Remote roles | Open to full-time roles, strategic consulting, and high-impact projects.
+
+---
+
+### 🛠️ Technical Stack & Capabilities
+
+* **Data Analytics & BI:** SQL, Python (`pandas`, `numpy`, `seaborn`, `matplotlib`), R (`tidyverse`, `ggplot2`), Power BI, Tableau, RStudio, Jupyter, Google Colab.
+  
+* **Core Technical Focus:** End-to-end data pipelines, cleaning raw datasets (100k+ records), data modeling, statistical forecasting, and dynamic dashboard design.
+  
+* **Business & Strategy:** Business question-oriented analysis, KPI framework design, executive communication (CFI consulting framework), decision support, and stakeholder alignment, Project Management, Conflict resolution
+  
+* **Strategic Foresight & Risk Analysis:** Strategy facilitation, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
+  
+* **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
+
+### 💼 Experience Highlights
+
+* 6+ Years in Data-Driven BI, Risk Management & Strategic Foresight across think tanks and risk consultancies
+* IARAN (Future of Aid 2040): Synthesized 877+ stakeholder surveys across 50+ organizations into four scenario frameworks for humanitarian system resilience
+* IMCO (Corruption Risk Index): Analyzed 670,000+ procurement records across 260 federal databases; findings adopted by federal institutions
+* TripleTen Data Analytics Portfolio: Territorial Profitability Analysis (SQL, JOINs, data validation) and Urban Mobility Forecasting (Python statistical analysis)
+Tech Stack: SQL, Python, R, Power BI, Tableau
+* Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
+* Languages: Spanish (Native), English (Advanced)
+---
+### 📁 Projects
+# 1. Territorial Profitability Analysis — Adventure Works
+
+## 🎯 Objective
+
+Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
+
+## 🔧 What I Did
+
+1. **Schema Integration** — Joined 6 tables (sales, products, categories, territories, campaigns) using `clave_territorio` and `clave_producto`
+2. **Data Cleaning** — Calculated `ingreso_total` and `costo_total` per order, handled NULLs with COALESCE
+3. **KPI Calculation** — Aggregated revenue, gross profit, margin %, and ROI % by territory
+4. **Validation** — Reconciled totals across joins, confirmed no data anomalies
+
+## 🛠️ Technologies
+
+SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with 6 tables | Data validation & QA
+
+## 📊 Results
+
+| Country | Revenue | Margin % | ROI % |
+|---------|---------|----------|-------|
+| 🇺🇸 USA | $3.35M | 43.4% | **75.8%** ⭐ |
+| 🇦🇺 Australia | $2.53M | 41.7% | **49.2%** |
+| 🇬🇧 UK | $1.19M | 42.7% | **22.1%** |
+| 🇩🇪 Germany | $1.07M | 42.9% | **20.3%** |
+| 🇫🇷 France | $0.92M | 42.9% | **17.9%** |
+| 🇨🇦 Canada | $0.71M | 44.8% | **17.4%** |
+
+## 💡 Key Insight
+
+**USA leads with 75.8% ROI** on $1.92M spend. **Australia (49.2% ROI) punches above weight.** **UK underperforms** with only 22.1% ROI despite $2.3M investment. All margins healthy (41–45%), but ROI divergence driven by **marketing spend efficiency.**
+
+**Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
 
 <!--
 **maxsantana-data2strategy/maxsantana-data2strategy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
