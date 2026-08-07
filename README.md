@@ -51,6 +51,8 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
 
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
 
+[![View Explore full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
+
 ## 🔧 What I Did
 
 1. **Schema Integration** — Joined 6 tables (sales, products, categories, territories, campaigns) using `clave_territorio` and `clave_producto`
@@ -78,8 +80,6 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 **USA leads with 75.8% ROI** on $1.92M spend. **Australia (49.2% ROI) punches above weight.** **UK underperforms** with only 22.1% ROI despite $2.3M investment. All margins healthy (41–45%), but ROI divergence driven by **marketing spend efficiency.**
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
-
-[![View Explore full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
 
 <!--
 **maxsantana-data2strategy/maxsantana-data2strategy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
