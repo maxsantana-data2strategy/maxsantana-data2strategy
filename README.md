@@ -51,7 +51,7 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
 
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
 
-[![View Explore full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
 
 ## 🔧 What I Did
 
