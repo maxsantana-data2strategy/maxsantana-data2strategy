@@ -75,6 +75,8 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 | 🇫🇷 France | $0.92M | 42.9% | **17.9%** |
 | 🇨🇦 Canada | $0.71M | 44.8% | **17.4%** |
 
+![Revenue_by_Country_EN](assets/Revenue_by_Country_EN.png)
+
 ## 💡 Key Insight
 
 **USA leads with 75.8% ROI** on $1.92M spend. **Australia (49.2% ROI) punches above weight.** **UK underperforms** with only 22.1% ROI despite $2.3M investment. All margins healthy (41–45%), but ROI divergence driven by **marketing spend efficiency.**
