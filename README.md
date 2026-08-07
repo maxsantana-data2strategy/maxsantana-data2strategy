@@ -75,7 +75,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 | 🇫🇷 France | $0.92M | 42.9% | **17.9%** |
 | 🇨🇦 Canada | $0.71M | 44.8% | **17.4%** |
 
-![Revenue_by_Country_EN](assets/Revenue_by_Country_EN.png)
+![Revenue_by_Country_EN](outputs/assets/Infographic_AdventureWorks_EN.pdf)
 
 ## 💡 Key Insight
 
