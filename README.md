@@ -53,7 +53,7 @@ Determine where to allocate marketing spend for maximum ROI across territories b
 
 [![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
 
-### 📊 [AdventureWorks Profitability Analysis](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL) [![Download Infographic](https://img.shields.io/badge/📄_Download_Infographic-2EA44F?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Revenue_by_Country_EN_whitebg.png)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
 
 ## 🔧 What I Did
 
