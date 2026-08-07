@@ -79,6 +79,8 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
 
+[![View Explore full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
+
 <!--
 **maxsantana-data2strategy/maxsantana-data2strategy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
