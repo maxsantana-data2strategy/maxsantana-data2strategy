@@ -78,9 +78,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 | 🇨🇦 Canada | $0.71M | 44.8% | **17.4%** |
 
 <p align="center">
-  <img src=<p align="center">
   <img src="https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Revenue_by_Country_EN_whitebg.png" alt="Revenue per country" width="600">
-</p> alt="Revenue per country" width="600">
 </p>
 
 ## 💡 Key Insight
