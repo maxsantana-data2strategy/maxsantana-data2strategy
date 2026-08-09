@@ -87,6 +87,46 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
 
+# 2. Urban Mobility & Economic Productivity — Latin America
+
+## 🎯 Objective
+Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
+
+<!-- Botón Negro: Enlace al Repositorio -->
+[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
+
+[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
+
+- **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
+- **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
+- **Aggregation** — Grouped traffic records by city to calculate mean delay, congestion, and travel-time metrics per city-year
+- **Analysis** — Computed a congestion-to-productivity ratio and ran correlation analysis across GDP, congestion, unemployment, and population
+
+## 🛠️ Technologies
+Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
+
+## 📊 Results
+
+| City | GDP/Capita | Ratio | Profile |
+|---|---|---|---|
+| 🇨🇴 Bogotá | $11,442 | 0.100 | Highest urgency ⭐ |
+| 🇵🇪 Lima | $13,472 | 0.078 | Highest urgency ⭐ |
+| 🇲🇽 Mexico City | $21,111 | 0.134 | High-scale congestion |
+| 🇧🇷 São Paulo | $14,703 | 0.118 | High-scale congestion |
+| 🇧🇷 Brasília | $16,251 | 0.006 | Efficient benchmark |
+| 🇺🇾 Montevideo | $26,176 | 0.002 | Efficient benchmark |
+
+
+![Jams delay and GDP per capita by city](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_1.png?raw=true)
+
+
+## 💡 Key Insight
+The correlation matrix suggests that traffic jam is driven mainly by population size (r = 0.88), not GDP per capita (r = 0.28) as initially expected. Bogotá and Lima combine high traffic friction with lower economic output — the clearest case for investment. Mexico City and São Paulo show the highest absolute congestion, but it's scale-driven, not inefficiency. Montevideo and Brasília stand out as efficient benchmarks.
+
+![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
+
+**Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
+
 <!--
 **maxsantana-data2strategy/maxsantana-data2strategy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
