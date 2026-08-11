@@ -42,7 +42,7 @@
 * TripleTen Data Analytics Portfolio: Territorial Profitability Analysis (SQL, JOINs, data validation) and Urban Mobility Forecasting (Python statistical analysis)
 Tech Stack: SQL, Python, R, Power BI, Tableau
 * Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
-* Languages: Spanish (Native), English (Advanced)
+* Languages: Spanish (Native), English (Advanced), French (Basic-Intermediate)
 ---
 ### 📁 Projects
 # 1. Territorial Profitability Analysis — Adventure Works
