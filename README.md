@@ -18,7 +18,8 @@
 * 📧 **Email:** m.santana.r@outlook.com
 * 📱 **Phone:** +52 220 501 4335
 * 🌍 **Languages:** English & Spanish (Bilingual), Intermediate French
-* 💻 **Availability:** High preference for Remote roles | Open to full-time roles, strategic consulting, and high-impact projects.
+* 💻 **Availability:** High preference for Remote roles |
+* 💼 **Open to full-time roles:** data analysis, strategic consulting, and high-impact projects.
 
 ---
 
