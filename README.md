@@ -162,7 +162,20 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 <summary><b>Future of Aid 2040 — IARAN</b></summary>
 
 #### 🎯 Objective
-Explore four plausible futures for the global humanitarian aid system by 2040, translating foresight into strategy for organizations navigating funding cuts, politicization, and systemic uncertainty.
+
+1. To analyse potential changes in the global context and aid system by 2040
+2. To identify concrete pathways for organisational transformation 
+3. To develop tools and guidelines to support organisations in kick starting a transformative journey
+   
+#### 📊 Key metrics (Phase 1)
+
+| Metric | Value |
+|---|---|
+| Consultations | 50+ |
+| Survey constributions | 877+ |
+| From the Global South | 77% |
+| From local NGOs / CSOs | 44% |
+| With lived crisis experience | ~40% |
 
 #### 🧭 Scenario Matrix
 Four scenarios mapped across two axes: network cooperation vs. survival of the fittest, and multipolar blocs vs. empires and conflict.
@@ -177,15 +190,6 @@ Four scenarios mapped across two axes: network cooperation vs. survival of the f
 #### 🛠️ Key Methodologies
 Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenario Building | Stakeholder Alignment
 
-#### 📊 Results
-
-| Metric | Value |
-|---|---|
-| Consultations | 50+ |
-| Contributors | 877 |
-| From the Global South | 77% |
-| From local NGOs / CSOs | 44% |
-| With lived crisis experience | ~40% |
 
 <p align="center">
 <img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/7c0c2c4b-f214-4e3e-949c-77cd23ebf370/39050001_neamoscou+redux.jpg" alt="Future of Aid 2040: Navigating the Next Humanitarian Horizon" width="180">
