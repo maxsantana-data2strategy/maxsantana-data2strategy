@@ -183,12 +183,12 @@ Four scenarios mapped across two axes: network cooperation vs. survival of the f
 <p align="center"><img src="https://github.com/user-attachments/assets/14ccf88d-eb73-421d-bc81-8c4fd0893e8d" alt="2040 Aid Scenarios Matrix — four future scenarios for global humanitarian aid" width="700"></p>
 
 #### 🔧 What I Did
-1. **Trend Research** — Led documentary research on global trends (incl. AI) as lead analyst for LATAM
-2. **Stakeholder Facilitation** — Facilitated consultations in Mexico and coordinated multiple stakeholders (donors, strategic partners, consulted organizations) within project governance
+1. **Trend Research** — Led documentary research on global trends and drivers of change impacting the future of aid
+2. . **Stakeholder Facilitation** — Facilitated consultations in Mexico and Colombia and coordinated multiple stakeholders (strategic partners, consulted organizations) within project governance
 3. **Multi-Phase Delivery** — Contributed across the project's three phases: foundations (Causal Layered Analysis), scenarios, and transformation pathways
 
-#### 🛠️ Key Methodologies
-Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenario Building | Stakeholder Alignment
+#### 🛠️ Key Methodologies and skills
+Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenario Building | Stakeholder Alignment | Project Management | Data analysis
 
 
 <p align="center">
