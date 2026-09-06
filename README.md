@@ -130,7 +130,7 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 </details>
 
 <details>
-<summary><b>Índice de Riesgos de Corrupción (IRC) — IMCO</b></summary>
+<summary><b> Risk Corruption Index (IRC in Spanish) — IMCO</b></summary>
 
 #### 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
