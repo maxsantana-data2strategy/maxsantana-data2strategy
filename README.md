@@ -35,15 +35,6 @@ Hi there 👋, welcome to my profile
 * **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
 
 * **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
-
-### 💼 Experience Highlights
-
-* 6+ Years in Data-Driven BI, Risk Management & Strategic Foresight across think tanks and risk consultancies
-* IARAN (Future of Aid 2040): Synthesized 877+ stakeholder surveys across 50+ organizations into four scenario frameworks for humanitarian system resilience
-* IMCO (Corruption Risk Index): Analyzed 670,000+ procurement records across 260 federal databases; findings adopted by federal institutions
-* TripleTen Data Analytics Portfolio: Territorial Profitability Analysis (SQL, JOINs, data validation) and Urban Mobility Forecasting (Python statistical analysis)
-* Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
-
 ---
 
 ## 📁 Projects
