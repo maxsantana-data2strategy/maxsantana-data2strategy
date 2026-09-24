@@ -38,17 +38,11 @@ Hi there 👋, welcome to my profile
 
 ---
 
-### 📈 GitHub Stats
+### 📈 Tech Stack & Skill Levels
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=maxsantana-data2strategy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxsantana-data2strategy&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy/main/skills_chart.svg" alt="Tech Stack &amp; Skill Levels — Max Santana" width="820"/>
 </p>
-
----
-
-## 📁 Projects
 
 ### 📊 Data Analysis / BI
 
