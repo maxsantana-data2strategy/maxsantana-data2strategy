@@ -186,6 +186,33 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+<details>
+<summary><b>AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)</b></summary>
+
+#### 🎯 Objective
+Determine which geopolitical factors organizations with Mexico operations should prioritize, and to what extent AI + data analysis can support (not replace) strategic judgment in horizon scanning.
+
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx)
+
+> **Status: 🟡 In Progress** — Analysis and documentation are ongoing.
+
+#### 🔧 What I Did
+1. **Scan Design & Signal Collection** — Structured horizon scan of 43 geopolitical risk signals for Mexico (1–10 year horizon): security, political economy, supply chains, regulatory risk
+2. **AI-Assisted Classification** — Used Claude Sonnet to classify signals by driver, time horizon, and impact; audited AI output against expert judgment
+3. **Quantitative Analysis** — Signal frequency by driver, correlation between AI severity scores and expert assessments, priority risk clusters
+4. **Human Review Layer** — Documented where AI adds value (rapid classification, pattern detection) and where human judgment is irreplaceable (contextual interpretation, strategic sense-making)
+
+#### 🛠️ Technologies
+Python (pandas, SciPy, matplotlib) | Claude Sonnet (AI-assisted classification) | Jupyter Notebook | PIL/Matplotlib
+
+#### 📊 Results
+43 signals → 7 drivers identified. AI classification aligned with expert grouping in ~78% of cases. Security-related drivers dominate; regulatory fragmentation and supply chain risk are secondary clusters.
+
+#### 💡 Key Insight
+**AI accelerates the scan but cannot replace the analyst.** The clearest value-add is speed and bias auditing. The clearest limitation: AI cannot weigh geopolitical signals against organizational strategy or local context without explicit human framing.
+
+</details>
+
 ### 🔮 Foresight
 
 <details>
@@ -234,17 +261,6 @@ Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenari
 
 #### 💡 Key Insight
 Synthesizing 877+ voices from 50+ organizations — most from the Global South — into four scenario frameworks and an organizational toolkit for humanitarian resilience under high uncertainty.
-
-</details>
-
-<details>
-<summary><b>Geopolitical Risk & Horizon Scanning</b></summary>
-
-#### 🎯 Objective
-Actor mapping and strategic intelligence under conditions of high uncertainty for executive decision-making.
-
-#### 🛠️ Key Methodologies
-OSINT | Strategic Intelligence | Qualitative Risk Analysis
 
 </details>
 
