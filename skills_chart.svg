@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="616" viewBox="0 0 820 616">
+  <rect width="820" height="616" fill="#0d1117"/>
+  <text x="410" y="30" text-anchor="middle" font-family="monospace,DejaVu Sans,Courier New" font-size="18" font-weight="bold" fill="#e6edf3">Tech Stack &amp; Skill Levels</text>
+  <text x="410" y="54" text-anchor="middle" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#8b949e">Max Santana · Data Analyst &amp; Strategic Foresight Specialist</text>
+  <text x="230" y="104" font-family="monospace,DejaVu Sans,Courier New" font-size="12" font-weight="bold" fill="#58a6ff" letter-spacing="1.5">DATA &amp; ANALYTICS</text>
+  <line x1="230" y1="110" x2="790" y2="110" stroke="#58a6ff" stroke-width="0.6" opacity="0.4"/>
+  <text x="220" y="140" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">SQL</text>
+  <rect x="230" y="126" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="126" width="469" height="18" rx="4" fill="#58a6ff" opacity="0.88"/>
+  <text x="707" y="140" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#58a6ff">92%</text>
+  <text x="220" y="174" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Python  (pandas · numpy · seaborn)</text>
+  <rect x="230" y="160" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="160" width="448" height="18" rx="4" fill="#58a6ff" opacity="0.88"/>
+  <text x="686" y="174" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#58a6ff">88%</text>
+  <text x="220" y="208" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Power BI</text>
+  <rect x="230" y="194" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="194" width="433" height="18" rx="4" fill="#58a6ff" opacity="0.88"/>
+  <text x="671" y="208" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#58a6ff">85%</text>
+  <text x="220" y="242" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">R  (tidyverse · ggplot2)</text>
+  <rect x="230" y="228" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="228" width="382" height="18" rx="4" fill="#58a6ff" opacity="0.88"/>
+  <text x="620" y="242" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#58a6ff">75%</text>
+  <text x="220" y="276" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Tableau</text>
+  <rect x="230" y="262" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="262" width="367" height="18" rx="4" fill="#58a6ff" opacity="0.88"/>
+  <text x="605" y="276" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#58a6ff">72%</text>
+  <text x="230" y="324" font-family="monospace,DejaVu Sans,Courier New" font-size="12" font-weight="bold" fill="#3fb950" letter-spacing="1.5">AI &amp; DATA SCIENCE</text>
+  <line x1="230" y1="330" x2="790" y2="330" stroke="#3fb950" stroke-width="0.6" opacity="0.4"/>
+  <text x="220" y="360" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">AI-Assisted Analysis</text>
+  <rect x="230" y="346" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="346" width="408" height="18" rx="4" fill="#3fb950" opacity="0.88"/>
+  <text x="646" y="360" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#3fb950">80%</text>
+  <text x="220" y="394" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Statistical Modelling</text>
+  <rect x="230" y="380" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="380" width="397" height="18" rx="4" fill="#3fb950" opacity="0.88"/>
+  <text x="635" y="394" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#3fb950">78%</text>
+  <text x="220" y="428" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">NLP / Text Analysis</text>
+  <rect x="230" y="414" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="414" width="331" height="18" rx="4" fill="#3fb950" opacity="0.88"/>
+  <text x="569" y="428" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#3fb950">65%</text>
+  <text x="230" y="476" font-family="monospace,DejaVu Sans,Courier New" font-size="12" font-weight="bold" fill="#d2a8ff" letter-spacing="1.5">STRATEGIC FORESIGHT</text>
+  <line x1="230" y1="482" x2="790" y2="482" stroke="#d2a8ff" stroke-width="0.6" opacity="0.4"/>
+  <text x="220" y="512" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Scenario Planning &amp; Futures</text>
+  <rect x="230" y="498" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="498" width="484" height="18" rx="4" fill="#d2a8ff" opacity="0.88"/>
+  <text x="722" y="512" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#d2a8ff">95%</text>
+  <text x="220" y="546" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Geopolitical Risk Analysis</text>
+  <rect x="230" y="532" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="532" width="459" height="18" rx="4" fill="#d2a8ff" opacity="0.88"/>
+  <text x="697" y="546" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#d2a8ff">90%</text>
+  <text x="220" y="580" text-anchor="end" font-family="monospace,DejaVu Sans,Courier New" font-size="12" fill="#e6edf3">Horizon Scanning / OSINT</text>
+  <rect x="230" y="566" width="510" height="18" rx="4" fill="#21262d"/>
+  <rect x="230" y="566" width="448" height="18" rx="4" fill="#d2a8ff" opacity="0.88"/>
+  <text x="686" y="580" font-family="monospace,DejaVu Sans,Courier New" font-size="11" font-weight="bold" fill="#d2a8ff">88%</text>
+</svg>
