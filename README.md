@@ -35,6 +35,17 @@ Hi there 👋, welcome to my profile
 * **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
 
 * **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=maxsantana-data2strategy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  &nbsp;&nbsp;
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxsantana-data2strategy&layout=compact&langs_count=7&theme=tokyonight"/>
+</p>
+
 ---
 
 ## 📁 Projects
