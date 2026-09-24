@@ -186,6 +186,8 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+### 🔮 Foresight
+
 <details>
 <summary><b>AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)</b></summary>
 
@@ -212,8 +214,6 @@ Python (pandas, SciPy, matplotlib) | Claude Sonnet (AI-assisted classification) 
 **AI accelerates the scan but cannot replace the analyst.** The clearest value-add is speed and bias auditing. The clearest limitation: AI cannot weigh geopolitical signals against organizational strategy or local context without explicit human framing.
 
 </details>
-
-### 🔮 Foresight
 
 <details>
 <summary><b>Future of Aid 2040 — IARAN</b></summary>
