@@ -38,12 +38,6 @@ Hi there 👋, welcome to my profile
 
 ---
 
-### 📈 Tech Stack & Skill Levels
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy/main/skills_chart.svg" alt="Tech Stack &amp; Skill Levels — Max Santana" width="820"/>
-</p>
-
 ### 📊 Data Analysis / BI
 
 <details>
