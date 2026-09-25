@@ -209,6 +209,10 @@ Python (pandas, SciPy, matplotlib) | Claude Sonnet (AI-assisted classification) 
 #### 📊 Results
 43 signals → 7 drivers identified. AI classification aligned with expert grouping in ~78% of cases. Security-related drivers dominate; regulatory fragmentation and supply chain risk are secondary clusters.
 
+![Impact/Uncertainty Matrix — 43 geopolitical signals plotted by impact and uncertainty](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx/blob/main/figures/fig1_miu.png?raw=true)
+
+![Risk vs. Novelty by Driver — highest-novelty drivers have lowest risk scores, revealing the novelty penalty](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx/blob/main/figures/fig2_drivers.png?raw=true)
+
 #### 💡 Key Insight
 **AI accelerates the scan but cannot replace the analyst.** The clearest value-add is speed and bias auditing. The clearest limitation: AI cannot weigh geopolitical signals against organizational strategy or local context without explicit human framing.
 
