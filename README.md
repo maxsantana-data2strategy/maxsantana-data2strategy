@@ -1,4 +1,4 @@
-h# Max Santana
+# Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
@@ -109,6 +109,45 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 **Outliers were the opportunity, not the noise.** The heaviest 21–47 users per usage metric were kept — not trimmed — since they represent ConnectaTel's clearest upsell segment.
 
 **Recommendation:** Design an ultra-premium tier for these power users and target `Medium use` customers, already the largest segment, for migration incentives toward `High use`/`Premium`.
+
+</details>
+
+<details>
+<summary><b>NovaRetail+ — Behavioral Factors Associated with Annual Revenue</b></summary>
+
+#### 🎯 Objective
+Determine which customer behavior factors are most strongly associated with annual revenue for a Latin American e-commerce platform, so the Growth and Retention team knows where to concentrate effort: purchase frequency, engagement volume, advertising intensity, or premium subscription.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis)
+
+#### 🔧 What I Did
+1. **Variable Typing** — Classified all 12 columns into numerical, binary, and categorical families, since variable type is what determines which correlation coefficient is valid
+2. **Distribution Profiling** — Found `monthly_visits`, `monthly_purchases`, and `targeted_ad_spend` right-skewed with long tails, ruling out Pearson as a sole basis for the analysis
+3. **Coefficient Selection** — Applied Spearman (numeric–numeric, robust to outliers), point-biserial (numeric–binary), and Cramér's V (categorical–categorical) across 15,000 customer records
+4. **Robustness Check** — Computed all six unique pairs under both Pearson and Spearman and differenced them, measuring the impact of outliers instead of assuming it
+
+#### 🛠️ Technologies
+Python (pandas, numpy) | `scipy.stats` (spearmanr, pointbiserialr, chi2_contingency) | seaborn, matplotlib | Correlational inference & effect-size reasoning | Jupyter Notebook
+
+#### 📊 Results
+
+| Relationship | Coefficient | Value | Read |
+|---|---|---|---|
+| monthly_purchases ↔ annual_revenue | Spearman ρ | **0.97** | Dominant signal ⭐ |
+| monthly_visits ↔ targeted_ad_spend | Spearman ρ | 0.56 | Ads buy traffic |
+| monthly_visits ↔ annual_revenue | Spearman ρ | 0.32 | Secondary |
+| targeted_ad_spend ↔ annual_revenue | Spearman ρ | 0.19 | Weak |
+| annual_revenue ↔ premium_member | Point-biserial r | 0.09 (p = 3.1e-30) | Significant, negligible |
+| device_type ↔ region | Cramér's V | 0.01 (p = 0.60) | No association |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/figure_3_spearman_correlation_heatmap.png" alt="Spearman correlation heatmap of key behavioral variables against annual revenue" width="600">
+</p>
+
+#### 💡 Key Insight
+**Statistical significance and practical relevance came apart.** Premium membership reached p ≈ 3e-30 against annual revenue and was still worth nothing as a lever: r = 0.09. With n = 15,000, any trivial effect clears a significance threshold, so effect size — not the p-value — was the decision-relevant quantity. Meanwhile advertising tracked visits (ρ = 0.56) far more than revenue (ρ = 0.19): it buys traffic, not money. And the standout ρ = 0.97 between purchases and revenue was flagged as a metric-construction warning rather than celebrated as a finding.
+
+**Recommendation:** Optimize for conversion rather than traffic, judge campaigns on conversion-based return instead of spend, drop premium status as a growth lever, and validate the purchases–revenue overlap before any predictive modeling.
 
 </details>
 
