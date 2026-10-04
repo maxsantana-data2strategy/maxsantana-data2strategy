@@ -119,6 +119,7 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 Determine which customer behavior factors are most strongly associated with annual revenue for a Latin American e-commerce platform, so the Growth and Retention team knows where to concentrate effort: purchase frequency, engagement volume, advertising intensity, or premium subscription.
 
 [![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/Infographic_NovaRetail_EN.pdf)
 
 #### 🔧 What I Did
 1. **Variable Typing** — Classified all 12 columns into numerical, binary, and categorical families, since variable type is what determines which correlation coefficient is valid
