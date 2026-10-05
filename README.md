@@ -153,6 +153,29 @@ Python (pandas, numpy) | `scipy.stats` (spearmanr, pointbiserialr, chi2_continge
 </details>
 
 <details>
+<summary><b>Landing Page A/B Test — Conversion & Revenue Validation — (In - Progress)</b></summary>
+
+#### 🎯 Objective
+Decide which version of an e-commerce homepage should be implemented — A (control) or B (variant) — by validating an A/B experiment across 40,000 exposed users against conversion rate, spend per converted user, and differential effects by traffic channel and user type.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/landing-page-ab-test-analysis)
+
+#### 🔧 Planned Approach
+1. **Experiment Validation** — Verify the design before trusting it: sample ratio mismatch, duplicate users across versions, the stated `gasto` > 0 ⟺ `converted` = 1 rule, and date-range parity between groups
+2. **Value per User** — Compare spend among converted users, choosing the test from the checked assumptions (distribution shape, variance homogeneity) rather than defaulting to one
+3. **Conversion Rate** — Two-proportion comparison reported with absolute lift, relative lift and a confidence interval, not a p-value alone
+4. **Segment Effects** — Independence tests for traffic source and user type, then whether the version effect itself differs by segment, with a multiple-comparison correction so exploratory cuts are not read as findings
+5. **Composite Decision Metric** — Revenue per exposed user, which captures conversion and basket size together, since a version can win on one and lose on the other
+
+#### 🛠️ Technologies
+Python (pandas, numpy) | scipy.stats | seaborn, matplotlib | Hypothesis testing, assumption verification, effect sizes & confidence intervals | Jupyter Notebook
+
+#### 📊 Status
+🚧 Repository scaffolded — notebook structure, business context and hypotheses in place; analysis in progress.
+
+</details>
+
+<details>
 <summary><b>Urban Mobility & Economic Productivity — Latin America</b></summary>
 
 #### 🎯 Objective
