@@ -153,25 +153,43 @@ Python (pandas, numpy) | `scipy.stats` (spearmanr, pointbiserialr, chi2_continge
 </details>
 
 <details>
-<summary><b>Landing Page A/B Test — Conversion & Revenue Validation — (In - Progress)</b></summary>
+<summary><b>Landing Page A/B Test — Conversion & Revenue Validation</b></summary>
 
 #### 🎯 Objective
-Decide which version of an e-commerce homepage should be implemented — A (control) or B (variant) — by validating an A/B experiment across 40,000 exposed users against conversion rate, spend per converted user, and differential effects by traffic channel and user type.
+Decide which version of an e-commerce homepage should be implemented — A (control) or B (variant) — by validating an A/B experiment across 40,000 exposed users on conversion rate and spend per converted user, and checking whether traffic channel or user type changes the answer.
 
 [![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/landing-page-ab-test-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/Infographic_LandingAB_EN.pdf)
 
-#### 🔧 Planned Approach
-1. **Experiment Validation** — Verify the design before trusting it: sample ratio mismatch, duplicate users across versions, the stated `gasto` > 0 ⟺ `converted` = 1 rule, and date-range parity between groups
-2. **Value per User** — Compare spend among converted users, choosing the test from the checked assumptions (distribution shape, variance homogeneity) rather than defaulting to one
-3. **Conversion Rate** — Two-proportion comparison reported with absolute lift, relative lift and a confidence interval, not a p-value alone
-4. **Segment Effects** — Independence tests for traffic source and user type, then whether the version effect itself differs by segment, with a multiple-comparison correction so exploratory cuts are not read as findings
-5. **Composite Decision Metric** — Revenue per exposed user, which captures conversion and basket size together, since a version can win on one and lose on the other
+#### 🔧 What I Did
+1. **Data Validation** — Checked 40,000 rows × 9 columns for missing values, duplicate rows and repeated user IDs (none found), and compared group composition across region, device, traffic source and user type: 19,982 vs 20,018 users, largest gap 0.8 pp
+2. **Assumption-Driven Test Selection** — Levene's test (p = 6.9e-08) ruled out equal variances and selected **Welch's t-test** over Student's for the spending comparison, rather than defaulting to one
+3. **Effect Sizes Beside Every p-value** — Reported the 95% CI [+6.08, +9.24] and **Cohen's d = 0.25** with the Welch result, and **Cramér's V** with every chi-square, so significance is never read as relevance at n = 40,000
+4. **Outlier Review** — Applied the IQR rule inside each version (2.83% of buyers in A, 2.79% in B), confirmed the extremes were genuine purchases rather than errors, and re-ran the comparison without them as a sensitivity check (+7.61 vs +7.66) before deciding to keep them
+5. **Conversion & Segment Tests** — Two-proportion z-test for the conversion rate, and chi-square on contingency tables of **counts** for traffic source and user type, with expected-frequency validation
 
 #### 🛠️ Technologies
-Python (pandas, numpy) | scipy.stats | seaborn, matplotlib | Hypothesis testing, assumption verification, effect sizes & confidence intervals | Jupyter Notebook
+Python (pandas, numpy) | `scipy.stats` (levene, ttest_ind Welch, chi2_contingency) | `statsmodels` (proportions_ztest) | Cohen's d & Cramér's V | seaborn, matplotlib | Jupyter Notebook
 
-#### 📊 Status
-🚧 Repository scaffolded — notebook structure, business context and hypotheses in place; analysis in progress.
+#### 📊 Results
+
+| Result | Test | Value | Read |
+|---|---|---|---|
+| Conversion rate — A vs B | Two-proportion z-test | **+3.38 pp (+26.9%)** | 12.57% → 15.96%, p = 3.8e-22 ⭐ |
+| Spending per converted user | Welch's t-test | **+7.66 (+12.5%)** | 61.09 → 68.75, 95% CI [+6.08, +9.24] |
+| Size of the spending effect | Cohen's d | **0.25** | Small — the distributions overlap substantially |
+| Extreme spending values | IQR rule + sensitivity re-test | 2.83% A · 2.79% B | Kept — genuine purchases, evenly split |
+| Traffic source ↔ conversion | χ² on counts + Cramér's V | p = 0.034, V = 0.015 | Significant, negligible — 1.2 pp of spread |
+| User type ↔ conversion | χ² on counts + Cramér's V | p = 0.474, V = 0.004 | No association |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/figure_2_conversion_rate_by_version.png" alt="Conversion rate by landing page version, A versus B, with the absolute and relative lift" width="600">
+</p>
+
+#### 💡 Key Insight
+**Two significant results, two different weights.** B wins on both metrics, but they are not equal: the conversion gain is +26.9% relative, while the spending gain carries a Cohen's d of 0.25 — a real but modest shift inside two heavily overlapping distributions. Ranking them is what turns a positive test into a decision. The segment questions came back empty in the way that matters: channel reached significance (p = 0.034) and was still worth nothing as a lever, with Cramér's V = 0.015 and 1.2 pp separating the best channel from the worst. **A methodological note worth keeping:** chi-square must receive the table of counts — run on percentages, the same test returns p = 0.993 instead of p = 0.034, because the statistic scales with the table total.
+
+**Recommendation:** Implement Landing Page B for all traffic and treat the conversion gain as the prize, not the spending difference. Do not reallocate budget by channel or segment the roll-out by user type. Before the roll-out is final, validate the allocation formally (sample-ratio-mismatch and covariate-balance tests) and run the interaction and resampling analyses listed as next steps in the repository.
 
 </details>
 
