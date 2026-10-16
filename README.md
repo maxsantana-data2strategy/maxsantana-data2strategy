@@ -40,6 +40,10 @@ Hi there 👋, welcome to my profile
 
 ### 📊 Data Analysis / BI
 
+<img src="banner-data-analysis.gif" alt="Animated banner: a scatter plot resolving into a regression line, bar chart and correlation metric" width="100%">
+
+Work that starts from a business question and ends with a decision someone can defend. Cleaning, modeling, and dashboard design across customer behavior, territorial profitability, experimentation, and public-sector indicators.
+
 <details>
 <summary><b>Territorial Profitability Analysis — Adventure Works</b></summary>
 
@@ -268,6 +272,10 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 ### 🧪 Data Science
 
+<img src="banner-data-science.gif" alt="Animated banner: a classifier searching for a decision boundary, with loss curve and confusion matrix" width="100%">
+
+Where description gives way to modeling — estimating what is likely, what is uncertain, and how much the data can actually support. Methods chosen to fit the problem, validated against data they haven't seen, and reported with their limits rather than without them.
+
 <details>
 <summary><b>Forecasting the Mexican Yield Curve — PCA Structure & VAR Out-of-Sample Evaluation</b></summary>
 
@@ -310,6 +318,10 @@ Average across the nine maturities, percentage points. Three components explain 
 </details>
 
 ### 🔮 Foresight
+
+<img src="banner-foresight.gif" alt="Animated banner: a three-dimensional futures cone branching into four named scenarios, with a wild card breaking outside the cone" width="100%">
+
+Not forecasting. The goal is not to predict the future but to see its possibilities and shape it. Driver analysis, scenario building, and horizon scanning used to stress-test strategy under deep uncertainty.
 
 <details>
 <summary><b>AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)</b></summary>
