@@ -266,6 +266,48 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+### 🧪 Data Science
+
+<details>
+<summary><b>Forecasting the Mexican Yield Curve — PCA Structure & VAR Out-of-Sample Evaluation</b></summary>
+
+#### 🎯 Objective
+Determine whether the common structure of Mexico's nominal yield curve — nine maturities from CETES 28 days to MBONOS 30 years, 240 months of monthly auction rates — helps forecast it, and whether the answer changes with the horizon. The benchmark to beat is persistence: assuming rates stay where they are.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/forecasting-mexican-yield-curve)
+[![Download Infographic JPG](https://img.shields.io/badge/📥_Download_Infographic_JPG-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/Infographic_YieldCurve_EN.jpg)
+
+#### 🔧 What I Did
+1. **Missingness Audit as a First-Class Result** — Reshaped 1,936 long-format records into a monthly matrix and found the gaps appear only on date alignment: 26.2% missing at 10 years, 28.7% at 20, 30.0% at 30, with just **40 of 240 months** observing all nine maturities
+2. **Causal Forward-Fill, Order Documented** — Each gap takes the last past observation, never future information, and the fill is applied **before** trimming the sample rather than after — `run_ffill_comparison.py` exists to compare the two orderings instead of assuming they are equivalent (239 levels, 238 monthly changes)
+3. **PCA on Levels, Unstandardized** — Estimated on the nine rates so that genuine differences in variability across maturities survive; loadings read as level, slope and curvature without being imposed
+4. **Benchmark Selected, Not Assumed** — Compared persistence, expanding historical mean and 12-month moving average; persistence won and became the reference for every comparison, rather than picking the weakest of the three
+5. **Expanding-Window Evaluation with PCA Re-Estimated at Every Origin** — Training ends Sep 2022, origins start Oct 2022: 45 origins at h = 3, 36 at h = 12, with the factors re-fitted at each origin so no future information leaks into them
+
+#### 🛠️ Technologies
+Python (pandas, numpy) | `sklearn.decomposition.PCA` (fit on levels, `inverse_transform` for reconstruction) | `statsmodels.tsa.api.VAR` (VAR(1) on changes and on factor scores) | matplotlib, PIL | Expanding-window out-of-sample evaluation | Jupyter Notebook
+
+#### 📊 Results
+
+| Model | h = 3 RMSE | h = 3 MAE | h = 12 RMSE | h = 12 MAE |
+|---|---|---|---|---|
+| Persistence (benchmark) | 0.5499 | 0.4450 | 1.2723 | 1.0584 |
+| Direct VAR(1) | **0.5103** ⭐ | **0.3992** | 1.2808 | 1.0680 |
+| PCA(3) + VAR(1) | 0.5266 | 0.4193 | **1.1630** ⭐ | **0.9384** |
+
+Average across the nine maturities, percentage points. Three components explain **99.38%** of the variation (PC1 level 94.09%, PC2 slope 4.60%, PC3 curvature 0.69%) and reconstruct the curve to **15.07 bp**.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/figure_model_rmse.png" alt="Average RMSE by model and horizon — direct VAR(1) wins at 3 months, PCA + VAR(1) at 12 months" width="700">
+</p>
+
+#### 💡 Key Insight
+**Explaining the curve and forecasting it are different problems.** Three factors account for 99.38% of the variation, and that compression still *costs* accuracy at three months: direct VAR(1) beats PCA + VAR(1) by 0.0163 RMSE there. At twelve months the ranking inverts — PCA + VAR(1) lands 8.6% below persistence while direct VAR(1) ends up 0.7% *worse* than doing nothing. No single specification dominates, so the honest output is a rule for choosing, not a winner. The limitation is stated in the same breath as the result: forward-fill can produce monthly changes of exactly zero, which makes some evaluated errors measure the last available auction rather than a new forecast — so the findings are labelled exploratory and the tests that would settle them are listed, not implied.
+
+**Recommendation:** Select by horizon — direct VAR(1) at 3 months, PCA + VAR(1) at 12 — and fix the auction-availability treatment (cross-sectional curve estimation for unobserved months) before any decision use, since it is the limitation most likely to move the ranking.
+
+</details>
+
 ### 🔮 Foresight
 
 <details>
