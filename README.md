@@ -45,7 +45,7 @@ Hi there 👋, welcome to my profile
 Work that starts from a business question and ends with a decision someone can defend. Cleaning, modeling, and dashboard design across customer behavior, territorial profitability, experimentation, and public-sector indicators.
 
 <details>
-<summary><b>Territorial Profitability Analysis — Adventure Works</b></summary>
+<summary><b>Where to Concentrate Marketing Spend Across Six Markets — Cycling Retail · SQL</b></summary>
 
 #### 🎯 Objective
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
@@ -85,7 +85,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 </details>
 
 <details>
-<summary><b>ConnectaTel — Customer Behavior & Usage Segmentation</b></summary>
+<summary><b>Which Customers Drive Value in Messy Usage Data — Telecom · Python</b></summary>
 
 #### 🎯 Objective
 Determine which customers drive the most value for a Latin American telecom by cleaning usage data, resolving data-quality issues, and segmenting customers by usage intensity and age.
@@ -117,7 +117,7 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 </details>
 
 <details>
-<summary><b>NovaRetail+ — Behavioral Factors Associated with Annual Revenue</b></summary>
+<summary><b>Which Customer Behaviors Track Annual Revenue — E-Commerce · Python & SciPy</b></summary>
 
 #### 🎯 Objective
 Determine which customer behavior factors are most strongly associated with annual revenue for a Latin American e-commerce platform, so the Growth and Retention team knows where to concentrate effort: purchase frequency, engagement volume, advertising intensity, or premium subscription.
@@ -157,7 +157,7 @@ Python (pandas, numpy) | `scipy.stats` (spearmanr, pointbiserialr, chi2_continge
 </details>
 
 <details>
-<summary><b>Landing Page A/B Test — Conversion & Revenue Validation</b></summary>
+<summary><b>Which Homepage Version to Ship — E-Commerce A/B Test · Python & statsmodels</b></summary>
 
 #### 🎯 Objective
 Decide which version of an e-commerce homepage should be implemented — A (control) or B (variant) — by validating an A/B experiment across 40,000 exposed users on conversion rate and spend per converted user, and checking whether traffic channel or user type changes the answer.
@@ -198,7 +198,7 @@ Python (pandas, numpy) | `scipy.stats` (levene, ttest_ind Welch, chi2_contingenc
 </details>
 
 <details>
-<summary><b>Urban Mobility & Economic Productivity — Latin America</b></summary>
+<summary><b>Where a Development Bank Should Fund Transit — 15 LatAm Cities · Python</b></summary>
 
 #### 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
@@ -237,7 +237,7 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 </details>
 
 <details>
-<summary><b> Risk Corruption Index (IRC in Spanish) — IMCO</b></summary>
+<summary><b> Which Federal Institutions Carry Procurement Risk — Public Sector · R & Tableau</b></summary>
 
 #### 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
@@ -277,7 +277,7 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 Where description gives way to modeling — estimating what is likely, what is uncertain, and how much the data can actually support. Methods chosen to fit the problem, validated against data they haven't seen, and reported with their limits rather than without them.
 
 <details>
-<summary><b>Forecasting the Mexican Yield Curve — PCA Structure & VAR Out-of-Sample Evaluation</b></summary>
+<summary><b>Does Curve Structure Beat a Naive Forecast — Sovereign Debt · Python (PCA + VAR)</b></summary>
 
 #### 🎯 Objective
 Determine whether the common structure of Mexico's nominal yield curve — nine maturities from CETES 28 days to MBONOS 30 years, 240 months of monthly auction rates — helps forecast it, and whether the answer changes with the horizon. The benchmark to beat is persistence: assuming rates stay where they are.
@@ -324,7 +324,7 @@ Average across the nine maturities, percentage points. Three components explain 
 Not forecasting. The goal is not to predict the future but to see its possibilities and shape it. Driver analysis, scenario building, and horizon scanning used to stress-test strategy under deep uncertainty.
 
 <details>
-<summary><b>AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)</b></summary>
+<summary><b>Can AI Group Geopolitical Risk Signals Like an Expert — Mexico · Python NLP — (In Progress)</b></summary>
 
 #### 🎯 Objective
 Determine which geopolitical factors organizations with Mexico operations should prioritize, and to what extent AI + data analysis can support (not replace) strategic judgment in horizon scanning.
@@ -355,7 +355,7 @@ Python (pandas, SciPy, matplotlib) | Claude Sonnet (AI-assisted classification) 
 </details>
 
 <details>
-<summary><b>Future of Aid 2040 — IARAN</b></summary>
+<summary><b>Four Futures for Humanitarian Aid to 2040 — IARAN · Scenarios & CLA</b></summary>
 
 #### 🎯 Objective
 
@@ -404,7 +404,7 @@ Synthesizing 877+ voices from 50+ organizations — most from the Global South �
 </details>
 
 <details>
-<summary><b>Tierra Incógnita: The Future of the Creative Economy — Nuevo León</b></summary>
+<summary><b>Policy Framework for the Creative Economy Under Disruption — Nuevo León · Foresight</b></summary>
 
 #### 🎯 Objective
 Build a foresight-based framework to turn uncertainty into opportunity for Nuevo León's creative and cultural industries, facing accelerated digital disruption, AI integration, and post-pandemic pressure.
