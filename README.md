@@ -276,6 +276,7 @@ Determine whether the common structure of Mexico's nominal yield curve — nine 
 
 [![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/forecasting-mexican-yield-curve)
 [![Download Infographic JPG](https://img.shields.io/badge/📥_Download_Infographic_JPG-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/Infographic_YieldCurve_EN.jpg)
+[![Read the Notebook](https://img.shields.io/badge/📓_Read_the_Notebook-0366D6?style=for-the-badge&logo=jupyter&logoColor=white)](https://maxsantana-data2strategy.github.io/forecasting-mexican-yield-curve/analisis_curva_banxico_notebook.html)
 
 #### 🔧 What I Did
 1. **Missingness Audit as a First-Class Result** — Reshaped 1,936 long-format records into a monthly matrix and found the gaps appear only on date alignment: 26.2% missing at 10 years, 28.7% at 20, 30.0% at 30, with just **40 of 240 months** observing all nine maturities
