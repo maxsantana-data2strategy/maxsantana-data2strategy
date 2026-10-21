@@ -317,6 +317,39 @@ Average across the nine maturities, percentage points. Three components explain 
 
 </details>
 
+
+<details>
+<summary><b>Segmenting Fantasy Premier League Players for Dynamic Pricing — OnSports · Python (Unsupervised Learning)</b></summary>
+
+#### 🎯 Objective
+Cluster English Premier League fantasy players on last season's performance (goals, assists, minutes, creativity, influence, threat, bonus, clean sheets) so a fantasy sports platform can set tiered player prices for the new season.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/fantasy-sports-clustering-analysis)
+[![Read the Notebook](https://img.shields.io/badge/📓_Read_the_Notebook-0366D6?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/maxsantana-data2strategy/fantasy-sports-clustering-analysis/blob/main/unsupervised-learning-fantasy-sports-clustering.ipynb)
+
+🚧 **Status: Work in progress** — EDA, PCA, K-Means, and K-Medoids are complete; Hierarchical, GMM, and DBSCAN are still pending, as is the final algorithm comparison.
+
+#### 🔧 What I Did (so far)
+1. **EDA & Outlier Review** — Univariate and bivariate analysis of 10 performance stats across ~476 players, plus a deliberate decision to retain outliers (elite scorers) rather than treat them as anomalies
+2. **Scaling + PCA** — Standardized the feature set and reduced it with PCA for clustering and visualization
+3. **K-Means (k = 4)** — Selected k via the elbow method and silhouette score, then profiled each cluster's average stats
+4. **K-Medoids (k = 4)** — Re-ran the same segmentation with real players as cluster centers instead of synthetic means, then compared cluster-by-cluster against K-Means
+
+#### 🛠️ Technologies
+Python (pandas, numpy, scikit-learn, scikit-learn-extra) | PCA | K-Means | K-Medoids | matplotlib, seaborn | Jupyter Notebook
+
+#### 📊 Preliminary Result: K-Means vs. K-Medoids
+Both algorithms converge on the same four tiers — elite offensive playmakers, durable defensive anchors, rotational/mid-tier regulars, and low-minute enablers — but K-Medoids anchors each one to a real player (e.g. Gylfi Sigurdsson, Ben Godfrey) instead of a statistical mean, which is more robust to outliers and easier to justify in a pricing conversation.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/fantasy-sports-clustering-analysis/main/kmeans_vs_kmedoids.png" alt="K-Means vs K-Medoids cluster comparison: PCA scatter plots and feature-mean heatmaps for both algorithms" width="700">
+</p>
+
+#### 💡 Key Insight (preliminary)
+**The choice of algorithm barely moves the player tiers — it moves how defensible they are.** Since K-Medoids reaches the same four-tier story anchored to real players, it is the stronger candidate for a pricing decision stakeholders need to trust, pending the remaining methods (Hierarchical, GMM, DBSCAN) and a full silhouette-score comparison before a final recommendation.
+
+</details>
+
 ### 🔮 Foresight
 
 <img src="banner-foresight.gif" alt="Animated banner: a three-dimensional futures cone branching into four named scenarios, with a wild card breaking outside the cone" width="100%">
