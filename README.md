@@ -319,7 +319,7 @@ Average across the nine maturities, percentage points. Three components explain 
 
 
 <details>
-<summary><b>Segmenting Fantasy Premier League Players for Dynamic Pricing — OnSports · Python (Unsupervised Learning)</b></summary>
+<summary><b>Segmenting Fantasy Premier League Players for Dynamic Pricing — OnSports · Python (Unsupervised Learning)(In Progress)</b></summary>
 
 #### 🎯 Objective
 Cluster English Premier League fantasy players on last season's performance (goals, assists, minutes, creativity, influence, threat, bonus, clean sheets) so a fantasy sports platform can set tiered player prices for the new season.
