@@ -45,6 +45,45 @@ Hi there 👋, welcome to my profile
 Work that starts from a business question and ends with a decision someone can defend. Cleaning, modeling, and dashboard design across customer behavior, territorial profitability, experimentation, and public-sector indicators.
 
 <details>
+<summary><b>Why Did Revenue Fall When Orders Barely Moved — Retail, 3 LatAm Markets · Power BI</b></summary>
+
+#### 🎯 Objective
+Diagnose a 6.8% year-over-year revenue decline for a retail group operating across Chile, Colombia and Perú by modeling 5,000 orders in Power BI, so leadership knows whether the cause is volume, pricing, a segment, or a market — before committing commercial effort anywhere.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/andes-retail-performance-dashboard-powerbi)
+[![Download Infographic JPG](https://img.shields.io/badge/📥_Download_Infographic_JPG-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/andes-retail-performance-dashboard-powerbi/main/assets/Infographic_AndesRetail_EN.jpg)
+
+#### 🔧 What I Did
+1. **Power Query** — Validated data types across all 12 columns, built a conditional column `Nivel_Venta` (Venta Alta ≥ $1,000) and calculated columns `Beneficio` and `Margen_Rentabilidad`; Column Profiling and Column Quality confirmed 100% valid data across 5,000 orders, zero nulls or duplicates
+2. **DAX Modeling** — Built fixed year-over-year measures with `REMOVEFILTERS` so the headline KPI cards stay comparable even when a user filters by country or segment, plus one deliberately interactive measure (`Ticket promedio`) that respects every filter as a free-exploration tool
+3. **Two-View Architecture** — An Overview that answers *what happened* at the company level and a Detail view that decomposes *why*, each chart picked for the shape of its finding — a Sankey/alluvial diagram for a category ranking change (Hogar climbing 3rd → 1st in profit), not a magnitude comparison a bar chart would understate
+4. **Narrative Synthesis** — Wrote the findings twice for two audiences (an SCQA narrative and a condensed async update) and documented every discarded design decision — a dropped profitability-band KPI, a calculated column replaced by a measure — for process transparency
+
+#### 🛠️ Technologies
+Power Query (M) — type validation, conditional & calculated columns, data-quality profiling | DAX (`CALCULATE`, `REMOVEFILTERS`, `DIVIDE`, `FORMAT`, `DISTINCTCOUNT`) | Power BI Desktop (line, grouped bar, Sankey/alluvial, column charts, matrix table, cards, slicers)
+
+#### 📊 Results
+
+| Result | Measure | Value | Read |
+|---|---|---|---|
+| Total revenue, YoY | `Tasa_Crecimiento_YoY` | **−6.8%** | $2.86M (2024) → $2.67M (2025) |
+| Order volume, YoY | `Variación Pedidos YoY` | −3.92% | Volume barely moved — not a demand problem |
+| Average ticket, YoY | computed | **−10.93%** | $1,222.90 → $1,089.23 — this is where the revenue went |
+| Premium segment, YoY | `Variación Premium YoY` | **−14.04%** | Steepest drop, in the segment with the highest profit share |
+| Margin, YoY | `Variación Margen YoY` | −0.16% | Effectively flat — not an efficiency problem |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/andes-retail-performance-dashboard-powerbi/main/assets/dashboard_overview.png" alt="Andes Retail Group Power BI dashboard — Overview view, revenue trend, category profit Sankey, country breakdown" width="700">
+</p>
+
+#### 💡 Key Insight
+**The business didn't lose customers — it lost value per transaction.** Orders held (−3.92%) and margin stayed flat (−0.16%), so the 6.8% revenue drop isn't a volume or efficiency problem — it's concentrated almost entirely in average ticket (−10.93%), and that drop sits inside the Premium segment (−14.04%), the one contributing the most profit. Perú, the leading market, posted the steepest decline, and Hogar was the only category that grew.
+
+**Recommendation:** Prioritize Premium-segment retention and upselling over any pricing or cost lever — the margin evidence rules that out. Replicate whatever is driving Hogar's growth, and time promotions outside the Nov–Jan holiday peak to smooth the recurring mid-year dip.
+
+</details>
+
+<details>
 <summary><b>Where to Concentrate Marketing Spend Across Six Markets — Cycling Retail · SQL</b></summary>
 
 #### 🎯 Objective
